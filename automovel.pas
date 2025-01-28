@@ -4,7 +4,8 @@ Supondo que a percentagem do revendedor seja de 25% do custo de fábrica e que i
 45% do custo de fabrica, faça um algoritmo que leia o valor de custo de fábrica e determine o preço final do automóvel(custo ao consumidor).}
 
 program automovel;
-var custo_fabrica,per_revendedor, impostos, preco_final :real;
+var 
+custo_fabrica,per_revendedor, impostos, preco_final :real;
 begin
 writeln('Digte o custo de fabrica do automovel:');
 readln(custo_fabrica);
